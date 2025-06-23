@@ -10,7 +10,8 @@ const [surname,setSurname] = useState('The Prime');
 
   return (
     <div>
-      <Header name={name} surname={surname} ></Header>
+      <h1>This is Main home Page</h1>
+      {/* <Header name={name} surname={surname} ></Header> */}
     </div>
   )
 }
