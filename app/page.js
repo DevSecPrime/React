@@ -1,14 +1,16 @@
 'use client'
 
 import React, { useState } from 'react'
-import Counter from '@/components/Counter'
+import Header from '@/Components/Header'
 
 const Page = () => {
   
+const [name,setName] = useState('Aryan');
+const [surname,setSurname] = useState('The Prime');
 
   return (
     <div>
-   <Counter></Counter>
+      <Header name={name} surname={surname} ></Header>
     </div>
   )
 }
